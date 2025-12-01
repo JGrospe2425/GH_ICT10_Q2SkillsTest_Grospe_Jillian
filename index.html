@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css" />
     <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
 
-    <!-- Google Fonts (Same as Home Page) -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
     <style>
-        /* --- CSS VARIABLES (Same as Home Page) --- */
+        /* --- CSS VARIABLES --- */
         :root {
             --bg-cream: #FDFCF5;          
             --bg-beige: #F2E8DC;          
@@ -48,7 +48,7 @@
             color: var(--deep-gold);
         }
 
-        /* --- NAVIGATION (For consistency) --- */
+        /* --- NAVIGATION --- */
         header {
             background-color: var(--white);
             box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -108,7 +108,6 @@
             position: relative;
         }
         
-        /* Decorative underline for title */
         .heading-box h1::after {
             content: '';
             display: block;
@@ -170,9 +169,6 @@
             min-height: 200px;
         }
 
-        /* --- OUTPUT TEXT LOGIC (Matched to your requirements but themed) --- */
-
-        /* 1. DEFAULT STYLE for Content lines (Time, Loc, Advisor) */
         #output div {
             font-family: 'Lato', sans-serif !important;
             font-size: 1.1rem !important; 
@@ -180,19 +176,17 @@
             font-weight: normal !important;
             margin-bottom: 15px;
             padding-left: 20px;
-            /* The side bar is now the Rose Gold accent color */
             border-left: 4px solid var(--accent-pink); 
             text-align: left;
-            background-color: rgba(253, 252, 245, 0.5); /* Very faint background for readability */
+            background-color: rgba(253, 252, 245, 0.5);
             padding-top: 5px;
             padding-bottom: 5px;
         }
 
-        /* 2. OVERRIDE STYLE for the TITLE (First line) */
         #output div:first-child {
             font-family: 'Playfair Display', serif !important;
             font-size: 2.2rem !important; 
-            color: var(--primary-pink) !important; /* Dark Pink Title */
+            color: var(--primary-pink) !important;
             font-weight: 700 !important;
             border-bottom: 2px solid var(--bg-beige);
             margin-bottom: 25px;
@@ -202,7 +196,6 @@
             background-color: transparent;
         }
         
-        /* Placeholder text style */
         .placeholder-text {
             text-align: center;
             color: #999;
@@ -225,7 +218,7 @@
 
 <body>
 
-    <!-- Header (To match Home Page) -->
+    <!-- Header -->
     <header>
         <nav>
             <div class="logo">ACADAMIA: GOLDEN CITY</div>
@@ -259,10 +252,11 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2023 Acadamia: Golden City. All rights reserved.</p>
+        <p>&copy; 2023 Acadamia: Golden City | Jillian C. Grospe | 10 - Sapphire</p>
     </footer>
 
     <py-script src="main.py"></py-script>
 </body>
 
 </html>
+
